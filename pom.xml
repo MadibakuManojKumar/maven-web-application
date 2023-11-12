@@ -21,7 +21,7 @@
 		<spring.version>5.1.2.RELEASE</spring.version>
 		<junit.version>4.11</junit.version>
 		<log4j.version>1.2.17</log4j.version>
-		<sonar.host.url>http://13.212.80.46:9000/</sonar.host.url>
+		<sonar.host.url>http://172.31.40.197:9000/</sonar.host.url>
 		<sonar.login>squ_393a0bc9da9477822864e07d4cee134cd392b9c5</sonar.login>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
@@ -97,13 +97,13 @@
 	    <repository>
 	      <id>nexus</id>
 	      <name>Mithun Technologies Releases Nexus Repository</name>
-	      <url>http://54.255.165.41:9980//mithuntechnologies/repository/citibank-releases/</url>
+	      <url>http://172.31.33.20:9980//mithuntechnologies/repository/citibank-releases/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>Mithun Technologies Snapshot Nexus Repository </name>
-	      <url>http://54.255.165.41:9980//mithuntechnologies/repository/citibank-snapshot/</url>
+	      <url>http://172.31.33.20:9980//mithuntechnologies/repository/citibank-snapshot/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
